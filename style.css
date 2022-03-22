@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+}
+
+.val {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #f00;
+}
+
+
+#cd-day::after {
+    content: 'gün';
+    font-size: 1rem;
+}
+
+
+#cd-hour::after {
+    content: 'saat';
+    font-size: 1rem;
+}
+
+
+#cd-minute::after {
+    content: 'dakika';
+    font-size: 1rem;
+}
+
+
+#cd-second::after {
+    content: 'saniye';
+    font-size: 1rem;
+}
+
